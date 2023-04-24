@@ -1,0 +1,26 @@
+{
+
+    "payment": [
+    {   
+        "id":1,
+       "fromUser":{
+        "userIdentifier":"3400001"
+       },
+
+       "toUser":{
+        "userIdentifier":"310000101"
+       },
+
+       "serviceId":"MOBILE_MONEY",
+       "product_id":"MERCHANT_PAYMENT",
+       "remarks":"Merchant Payment",
+       "payment": [
+          {
+            "amount": "100"
+          }
+       ],
+
+       "transactionPin": "654321"
+    }
+   ]
+}
